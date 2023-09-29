@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #232629;
+    }
+    .container {
+      display: grid;
+      width: 748px;
+      height: 748px;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 22px;
+      gap:9px;
+      background-color: black;
+    
+      
+
+    }
+    .redbox {
+      background-color: #E72F24;
+    }
+    .whitebox {
+      background-color: #F0F1EC;
+      grid-column: 2 / span 3;
+      
+    }
+    .whitebox1 {
+      background-color: #F0F1EC;
+      grid-column: 2 span;
+      grid-row-start: 2;
+      grid-row-end: -2;
+      
+      
+    }
+    .whitebox2 {
+      background-color: #F0F1EC;
+      grid-row-start: 2;
+      grid-row-end: -1;
+      grid-column: 1;
+      
+      }
+    .blue {
+      background-color: #004592;
+      
+      border-bottom: solid 10px;
+      
+      
+    }
+    .blackbox{
+      background-color: #F0F1EC;
+    }
+    .yellowbox {
+      background-color: #232629;
+    }
+    .whitebox3 {
+      background-color: #F0F1EC;
+      grid-row-start: -3;
+      grid-row-end: -1;
+      border-top: 19px;
+    }
+    .whitebox4 {
+      background-color:#F9D01E;
+    }
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="redbox"></div>
+    <div class="whitebox"></div>
+    <div class="whitebox1"></div>
+    <div class="whitebox2"></div>
+    <div class="blue"></div>
+    <div class="whitebox3"></div>
+    <div class="whitebox4"></div>
+    <div class="yellowbox"></div>
+    <div class="blackbox"></div>
+  </div>
+  <!-- Write your HTML here -->
+</body>
+
+</html>
